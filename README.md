@@ -59,7 +59,7 @@ More information [Mega Chat](https://t.me/joinchat/BgAGwQ5WAMHJ7pcCOV7_Vg)
 
 [Amir Dark](https://github.com/amirhmz) ([Telegram](https://telegram.me/AmirDark))
 
-[Sina Ghasemi](https://github.com/sinaw1) ([Telegram](https://telegram.me/sinaqasemi))
+[Sina Ghasemi](https://github.com/sinaghasemi) ([Telegram](https://telegram.me/sinaqasemi))
 
 [Pedram Naderi](https://github.com/PedramNaderi) ([Telegram](https://telegram.me/pediw))
 
