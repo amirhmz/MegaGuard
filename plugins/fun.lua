@@ -1,6 +1,5 @@
 
---Begin Fun.lua By @BeyondTeam
---Special Thx To @To0fan
+--Begin Fun.lua By @MegaGuardTeam
 --------------------------------
 
 local function run_bash(str)
@@ -314,7 +313,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_en = [[
-_Beyond Reborn Fun Help Commands:_
+_Mega Guard Fun Commands:_
 
 *!time*
 _Get time in a sticker_
@@ -357,7 +356,7 @@ _You can use_ *[!/#]* _at the beginning of commands._
 else
 
 helpfun_en = [[
-_راهنمای فان ربات بیوند:_
+_دستورات سرگرمی مگا گارد :_
 
 *!time*
 _دریافت ساعت به صورت استیکر_
@@ -394,7 +393,7 @@ _تبدیل استیکر‌به عکس_
 *!weather* `[city]`
 _دریافت اب وهوا_
 
-*شما میتوانید از [!/#] در اول دستورات برای اجرای آنها بهره بگیرید*
+*شما میتوانید از [!/#] در اول دستورات برای اجرا استفاده کنید*
 
 موفق باشید ;)]]
 end
@@ -406,7 +405,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_fa = [[
-_Beyond Reborn Fun Help Commands:_
+_Mega Guard Fun Commands:_
 
 *ساعت*
 _Get time in a sticker_
@@ -447,7 +446,7 @@ _Get weather_
 else
 
 helpfun_fa = [[
-_راهنمای فان ربات بیوند:_
+_دستورات سرگرمی مگا گارد :_
 
 *ساعت*
 _دریافت ساعت به صورت استیکر_
