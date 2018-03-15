@@ -1,5 +1,5 @@
 do
--- #Begin plugins.lua by @BeyondTeam
+-- #Begin plugins.lua by @MegaGuardTeam
 -- Returns the key (index) in the config.enabled_plugins table
 local function plugin_enabled( name )
   for k,v in pairs(_config.enabled_plugins) do
@@ -43,7 +43,7 @@ local function list_all_plugins(only_enabled, msg)
       text = text..nsum..'.'..status..' '..v..' \n'
     end
   end
-  text = '<code>'..text..'</code>\n\n'..nsum..' <b>📂plugins installed</b>\n\n'..nact..' <i>✔️plugins enabled</i>\n\n'..nsum-nact..' <i>❌plugins disabled</i>'..tmp
+  text = '<code>'..text..'</code>\n\n'..nsum..' <b>📂 Plugins Installed</b>\n\n'..nact..' <i>✔️ Plugins enabled</i>\n\n'..nsum-nact..' <i>❌ Plugins disabled</i>'..tmp
   tdcli.sendMessage(msg.to.id, msg.id_, 1, text, 1, 'html')
 end
 
@@ -68,7 +68,7 @@ local function list_plugins(only_enabled, msg)
      -- text = text..v..'  '..status..'\n'
     end
   end
-  text = "\n_🔃All Plugins Reloaded_\n\n"..nact.." *✔️Plugins Enabled*\n"..nsum.." *📂Plugins Installed*\n"..msg_caption
+  text = "\n_🔃 All Plugins Reloaded_\n\n"..nact.." *✔️ Plugins enabled*\n"..nsum.." *📂 Plugins Installed*\n"..msg_caption
   tdcli.sendMessage(msg.to.id, msg.id_, 1, text, 1, 'md')
 end
 
